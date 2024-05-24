@@ -1,16 +1,65 @@
 /* --- Fonts --- */
 
+/* Changa One */
+
+@font-face {
+    font-family: "Changa One";
+    src: url('assets/fonts/Changa_One/ChangaOne-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* jacques François */
+
+@font-face {
+    font-family: "Jacques Francois";
+    src: url('assets/fonts/Jacques_Francois/Jacques_Francois.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* La Belle Aurore */
+
+@font-face {
+    font-family: "La Belle Aurore";
+    src: url('assets/fonts/La_Belle_Aurore/LaBelleAurore-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Open Sans */
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('assets/fonts/Open_Sans/OpenSans-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
 /* Family */
 .u-font-open-sans {
     font-family: "Open Sans", sans-serif;
 }
 
-.u-font-change-one {
-    font-family: "Open Sans", sans-serif;
+.u-font-changa-one {
+    font-family: "Change One", sans-serif;
 }
 
 .u-font-jacques-francois {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Jacques Francois", sans-serif;
+}
+
+.u-font-belle-aurore {
+    font-family: "La Belle Aurore", sans-serif;
 }
 
 /* Weight */
@@ -50,3 +99,15 @@
     color: #1E1E1E;
 }
 
+/* Composants */
+/* Mobile first */
+
+Header {
+    min-height: 130px;
+}
+
+.c-cover {}
+
+footer {
+
+}
