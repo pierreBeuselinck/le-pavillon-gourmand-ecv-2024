@@ -1,4 +1,3 @@
-
 /* --- Import --- */
 
 @import url("reset.css");
@@ -115,7 +114,13 @@ body {
 /* Composants */
 
 footer {
+    background-color: black;
     min-height: 335px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 4.8rem 2.4rem;
+    color: #F2F2F2;
 }
 
 Header {
@@ -130,6 +135,18 @@ Header {
 
 .c-section__images {
     width: 50%;
+}
+
+.c-section__images picture {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.c-section__images picture img {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
 }
 
 .c-section__content {
@@ -159,14 +176,20 @@ Header {
 }
 
 .c-reassurance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1E1E;
     margin: 0 auto;
     padding: 0 16px;
-} 
+    min-height: 335px;
+}
 
 .c-reassurance__content {
     max-width: 1127px;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 16px;
 }
@@ -181,13 +204,10 @@ Header {
     Header {
         min-height: 130px;
     }
-    
+
     .c-cover {}
-    
+
     .c-reassurance {
         display: flex;
-    }  
+    }
 }
-
-
-
