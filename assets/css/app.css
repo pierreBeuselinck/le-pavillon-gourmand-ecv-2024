@@ -1,0 +1,52 @@
+/* --- Fonts --- */
+
+/* Family */
+.u-font-open-sans {
+    font-family: "Open Sans", sans-serif;
+}
+
+.u-font-change-one {
+    font-family: "Open Sans", sans-serif;
+}
+
+.u-font-jacques-francois {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Weight */
+
+.u-font-300 {
+    font-weight: 300;
+}
+
+
+/* --- Colors --- */
+
+.u-color-white {
+    color: white;
+}
+
+.u-color-black {
+    color: black;
+}
+
+.u-bgcolor-black {
+    color: black;
+}
+
+.u-bgcolor-blue-dark {
+    color: #051528;
+}
+
+.u-bgcolor-red-dark {
+    color: #251715;
+}
+
+.u-bgcolor-green {
+    color: #142C08;
+}
+
+.u-bgcolor-grey {
+    color: #1E1E1E;
+}
+
