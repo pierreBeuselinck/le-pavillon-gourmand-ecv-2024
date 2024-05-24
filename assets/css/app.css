@@ -121,8 +121,20 @@ nav li {
 }
 
 a {
-    color: white;
+    color: #F2F2F2;
     text-decoration: none;
+}
+
+h1,h2 {
+    font-family: "Changa One", sans-serif;
+    font-size: 54px;
+    line-height: 70px;
+    color: #F2F2F2;
+
+}
+
+.logo {
+    width: 300px;
 }
 
 /* Composants */
@@ -250,6 +262,25 @@ header nav ul {
     gap: 16px;
 }
 
+.acces {
+    background-color: #1E1E1E;
+}
+
+.nous-contacter {
+    background-color: #000;
+    color: #F2F2F2;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.nous-contacter-btn {
+    background-color: #fff;
+    color: #000;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
 /* Mobile first */
 
 @media screen and (max-width: 960px) {
@@ -257,7 +288,7 @@ header nav ul {
         min-height: 335px;
     }
 
-    Header {
+    header {
         min-height: 130px;
     }
 
