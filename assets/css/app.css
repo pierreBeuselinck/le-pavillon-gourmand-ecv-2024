@@ -1,10 +1,15 @@
+
+/* --- Reset --- */
+
+@import url("reset.css");
+
 /* --- Fonts --- */
 
 /* Changa One */
 
 @font-face {
     font-family: "Changa One";
-    src: url('assets/fonts/Changa_One/ChangaOne-Regular.ttf') format('ttf');
+    src: url('../fonts/Changa_One/ChangaOne-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,7 +18,7 @@
 
 @font-face {
     font-family: "Jacques Francois";
-    src: url('assets/fonts/Jacques_Francois/Jacques_Francois.ttf') format('ttf');
+    src: url('../fonts/Jacques_Francois/Jacques_Francois.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -22,7 +27,7 @@
 
 @font-face {
     font-family: "La Belle Aurore";
-    src: url('assets/fonts/La_Belle_Aurore/LaBelleAurore-Regular.ttf') format('ttf');
+    src: url('../fonts/La_Belle_Aurore/LaBelleAurore-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -31,14 +36,14 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: url('assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('ttf');
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url('assets/fonts/Open_Sans/OpenSans-Light.ttf') format('ttf');
+    src: url('../fonts/Open_Sans/OpenSans-Light.ttf') format('ttf');
     font-weight: 300;
     font-style: normal;
 }
@@ -46,6 +51,7 @@
 
 
 /* Family */
+
 .u-font-open-sans {
     font-family: "Open Sans", sans-serif;
 }
@@ -100,7 +106,10 @@
 }
 
 /* Composants */
-/* Mobile first */
+
+footer {
+    min-height: 335px;
+}
 
 Header {
     min-height: 130px;
@@ -108,6 +117,36 @@ Header {
 
 .c-cover {}
 
-footer {
+.c-reassurance {
+    margin: 0 auto;
+    padding: 0 16px;
+} 
 
+.c-reassurance__content {
+    max-width: 1127px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
 }
+
+/* Mobile first */
+
+@media screen and (max-width: 960px) {
+    footer {
+        min-height: 335px;
+    }
+
+    Header {
+        min-height: 130px;
+    }
+    
+    .c-cover {}
+    
+    .c-reassurance {
+        display: flex;
+    }  
+}
+
+
+
