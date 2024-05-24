@@ -127,7 +127,8 @@ a {
     text-decoration: none;
 }
 
-h1,h2 {
+h1,
+h2 {
     font-family: "Changa One", sans-serif;
     font-size: 54px;
     line-height: 70px;
@@ -259,6 +260,7 @@ header nav ul {
     align-items: center;
     justify-content: space-between;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .acces {
@@ -291,11 +293,25 @@ header nav ul {
 
 /* Mobile first */
 
+@media screen and (max-width: 60rem) {
+    .c-section {
+        flex-direction: column;
+    }
+
+    .c-section__images {
+        width: 100%;
+    }
+    .c-section__content {
+        width: calc(100% - 32px);
+    }
+}
+
 @media screen and (min-width: 60rem) {
     .nous-contacter {
         flex-direction: row;
         justify-content: space-between;
     }
+
     .nous-contacter-btn {
         width: 48%;
     }
