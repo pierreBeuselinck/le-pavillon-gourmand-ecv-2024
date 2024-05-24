@@ -167,7 +167,8 @@ header nav ul {
 .c-cover {
     position: relative;
     margin-top: -175px;
-    /* height: 100vh; */
+    max-height: calc(100vh + 175px);
+    display: flex;
 }
 
 .c-cover::after {
@@ -203,6 +204,7 @@ header nav ul {
 
 .c-section__images {
     width: 50%;
+    max-height: 1080px;
 }
 
 .c-section__images picture {
