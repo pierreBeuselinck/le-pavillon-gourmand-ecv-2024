@@ -125,6 +125,13 @@ a {
     text-decoration: none;
 }
 
+h1,h2 {
+    font-family: "Changa One", sans-serif;
+    font-size: 54px;
+    line-height: 70px;
+    color: #F2F2F2;
+}
+
 /* Composants */
 
 
