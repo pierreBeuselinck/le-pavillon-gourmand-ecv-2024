@@ -120,6 +120,11 @@ nav li {
     font-family: "Jacques Francois", serif;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Composants */
 
 footer {
