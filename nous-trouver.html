@@ -13,29 +13,66 @@
 <body>
     <div>
         <header>
-            <div>
-                <img src="" alt="">
-                <p>Le pavillon gourmand</p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Un lieu</a></li>
-                    <li><a href="#">Un moment</a></li>
-                    <li><a href="#">Nous trouver</a></li>
-                </ul>
-            </nav>
-        </header>
+            <img src="./assets/images/webp/logo.webp" class="logo" width="100" alt="">
+
+        <nav>
+            <ul>
+                <li><a href="/un-lieu.html">Un lieu</a></li>
+                <li><a href="/un-moment.html">Un moment</a></li>
+                <li><a href="/nous-trouver.html">Nous trouver</a></li>
+            </ul>
+        </nav>
+    </header>
         <main>
-            <div>
-                <div>
+            <div class="c-cover">
+                <div class="c-cover__carrousel">
+                    <section class="carousel" aria-label="Gallery">
+                        <ol class="carousel__viewport">
+                            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                                <div class="carousel__snapper">
+                                    <picture>
+                                        <source srcset="assets/images/webp/1.webp" type="image/webp">
+                                        <img src="assets/images/jpg/1.jpg" alt="Description de l'image" loading="lazy">
+                                    </picture>
+                                </div>
+                            </li>
+                            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                                <div class="carousel__snapper">
+                                    <picture>
+                                        <source srcset="assets/images/webp/2.webp" type="image/webp">
+                                        <img src="assets/images/jpg/2.jpg" alt="Description de l'image" loading="lazy">
+                                    </picture>
+                                </div>
+                            </li>
+                            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                                <div class="carousel__snapper">
+                                    <picture>
+                                        <source srcset="assets/images/webp/3.webp" type="image/webp">
+                                        <img src="assets/images/jpg/3.jpg" alt="Description de l'image" loading="lazy">
+                                    </picture>
+                                </div>
+                            </li>
+                        </ol>
+                    </section>
+                </div>
+            </div>
+            <div class="c-section">
+                <div class="c-section__content acces u-color-white">
                     <div>
                         <h2>Accès</h2>
-                        <a href="https://maps.app.goo.gl/THbd4BUaioVMjHiSA" target="_blank" rel="noreferrer noopener"> 13 rue Jean Mermoz <br>
-                            74940 Annecy-le-Vieux, FRANCE
+                        <p>
+                            13 rue Jean Mermoz 74940 Annecy-le-Vieux, FRANCE                      
                         </p>
                     </div>
                 </div>
-                <img src="" alt="map" srcset="">
+                <div class="c-section__images">
+                    <a href="#">
+                        <picture>
+                            <source srcset="assets/images/webp/map.webp" type="image/webp">
+                            <img src="assets/images/jpg/map.jpg" alt="Description de l'image" loading="lazy">
+                        </picture>
+                    </a>
+                </div>
             </div>
             <div>
                 <a href="mailto:restaurant@example.com?subject=Contact : Le Pavillon Gourmand&body=Bonjour%2C%0A%0AVeuillez%20trouver%20ci-dessous%20mes%20informations%20%3A%0A%0AAdresse%20e-mail%3A%20%0ANom%3A%20%0APr%C3%A9nom%3A%20%0AT%C3%A9l%C3%A9phone%3A%20%0A%0AMessage%3A%0A%0AMerci%21">
