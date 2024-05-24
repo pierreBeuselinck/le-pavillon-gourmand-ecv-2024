@@ -20,7 +20,7 @@
   width: 500%;
   transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
   transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  animation: slide 12300ms infinite;
+  animation: slide 24300ms infinite;
 }
 
 .carousel__slide {
