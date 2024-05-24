@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "Changa One";
-    src: url('assets/fonts/Changa_One/ChangaOne-Regular.ttf') format('ttf');
+    src: url('assets/fonts/Changa_One/ChangaOne-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: "Jacques Francois";
-    src: url('assets/fonts/Jacques_Francois/Jacques_Francois.ttf') format('ttf');
+    src: url('assets/fonts/Jacques_Francois/Jacques_Francois.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -22,7 +22,7 @@
 
 @font-face {
     font-family: "La Belle Aurore";
-    src: url('assets/fonts/La_Belle_Aurore/LaBelleAurore-Regular.ttf') format('ttf');
+    src: url('assets/fonts/La_Belle_Aurore/LaBelleAurore-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -31,7 +31,7 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: url('assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('ttf');
+    src: url('assets/fonts/Open_Sans/OpenSans-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
