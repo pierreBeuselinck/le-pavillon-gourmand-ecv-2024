@@ -278,6 +278,7 @@ header nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2rem;
 }
 
 .nous-contacter-btn a {
@@ -289,6 +290,17 @@ header nav ul {
     font-weight: normal;
 }
 
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+.services table td {
+    padding-right: 3rem;
+}
+
 /* Mobile first */
 
 @media screen and (min-width: 60rem) {
@@ -298,6 +310,11 @@ header nav ul {
     }
     .nous-contacter-btn {
         width: 48%;
+        margin-top: 0;
+    }
+    .services {
+        width: 48%;
+        align-items: flex-start;
     }
 }
 
