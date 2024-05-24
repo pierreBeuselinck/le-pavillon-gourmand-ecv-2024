@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: "Jacques Francois";
-    src: url('../fonts/Jacques_Francois/Jacques_Francois.woff2') format('woff2');
+    src: url('../fonts/Jacques_Francois/JacquesFrancois-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -54,6 +54,11 @@
 
 .u-font-open-sans {
     font-family: "Open Sans", sans-serif;
+}
+
+.u-font-open-sans-light {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
 }
 
 .u-font-changa-one {
@@ -109,6 +114,15 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+}
+
+nav li {
+    font-family: "Jacques Francois", serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Composants */
