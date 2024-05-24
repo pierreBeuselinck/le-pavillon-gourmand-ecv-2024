@@ -114,6 +114,8 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    line-height: 56px;
 }
 
 nav li {
@@ -269,6 +271,8 @@ header nav ul {
 }
 
 .nous-contacter {
+    display: flex;
+    flex-direction: column;
     background-color: #000;
     color: #F2F2F2;
     font-size: 26px;
@@ -276,14 +280,32 @@ header nav ul {
 }
 
 .nous-contacter-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nous-contacter-btn a {
     background-color: #fff;
     color: #000;
     padding: 16px 32px;
-    font-size: 16px;
+    font-size: 26px;
+    line-height: 56px;
     font-weight: normal;
 }
 
 /* Mobile first */
+
+@media screen and (min-width: 60rem) {
+    .nous-contacter {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nous-contacter-btn {
+        width: 48%;
+    }
+}
+
 
 @media screen and (max-width: 960px) {
     footer {
