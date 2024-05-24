@@ -128,15 +128,23 @@ Header {
     display: flex;
 }
 
-.c-section__content,
 .c-section__images {
-    flex: 1;
+    width: 50%;
+}
+
+.c-section__content {
+    width: calc(50% - 32px);
+}
+
+.c-section__content div {
+    max-width: 594px;
+    width: 100%;
 }
 
 .c-section__content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 16px;
     gap: 16px;
 }
