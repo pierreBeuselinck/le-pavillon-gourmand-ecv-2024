@@ -57,6 +57,11 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.u-font-open-sans-light {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
 .u-font-changa-one {
     font-family: "Change One", sans-serif;
 }
@@ -110,6 +115,10 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+}
+
+nav li {
+    font-family: "Jacques Francois", serif;
 }
 
 /* Composants */
