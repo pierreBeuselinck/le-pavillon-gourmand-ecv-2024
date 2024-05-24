@@ -87,23 +87,29 @@
 }
 
 .u-bgcolor-black {
-    color: black;
+    background-color: black;
 }
 
 .u-bgcolor-blue-dark {
-    color: #051528;
+    background-color: #051528;
 }
 
 .u-bgcolor-red-dark {
-    color: #251715;
+    background-color: #251715;
 }
 
 .u-bgcolor-green {
-    color: #142C08;
+    background-color: #142C08;
 }
 
 .u-bgcolor-grey {
-    color: #1E1E1E;
+    background-color: #1E1E1E;
+}
+
+/* General */
+
+body {
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Composants */
@@ -117,6 +123,32 @@ Header {
 }
 
 .c-cover {}
+
+.c-section {
+    display: flex;
+}
+
+.c-section__content,
+.c-section__images {
+    flex: 1;
+}
+
+.c-section__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    gap: 16px;
+}
+
+.c-section__content h2 {
+    font-family: "Change One", sans-serif;
+    font-size: 60px;
+}
+
+.c-section__content p {
+    font-size: 26px;
+}
 
 .c-reassurance {
     margin: 0 auto;

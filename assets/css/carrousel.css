@@ -57,7 +57,8 @@
     bottom: 0;
     left: 0;
     display: flex;
-    overflow-x: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
     counter-reset: item;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
@@ -67,22 +68,6 @@
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-color: #f99;
-    counter-increment: item;
-  }
-  
-  .carousel__slide:nth-child(even) {
-    background-color: #99f;
-  }
-  
-  .carousel__slide:before {
-    content: counter(item);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%,-40%,70px);
-    color: #fff;
-    font-size: 2em;
   }
   
   .carousel__snapper {
@@ -93,12 +78,19 @@
     height: 100%;
     scroll-snap-align: center;
   }
+
+  .carousel__snapper img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+  }
   
   @media (hover: hover) {
     .carousel__snapper {
       animation-name: tonext, snap;
       animation-timing-function: ease;
-      animation-duration: 4s;
+      animation-duration: 6s;
       animation-iteration-count: infinite;
     }
   
@@ -116,17 +108,4 @@
   .carousel:hover .carousel__snapper,
   .carousel:focus-within .carousel__snapper {
     animation-name: none;
-  }
-  
-  .carousel::before,
-  .carousel::after {
-    position: absolute;
-    top: 0;
-    margin-top: 37.5%;
-    width: 4rem;
-    height: 4rem;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    font-size: 0;
-    outline: 0;
   }
