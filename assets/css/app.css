@@ -347,6 +347,15 @@ header nav ul {
     object-fit: cover;
 }
 
+.carte-vin-container {
+margin-top: 32px;
+}
+
+.carte-vin-btn {
+    border: 1px solid white;
+    padding: 12px 22px;
+}
+
 /* Mobile first */
 
 @media screen and (max-width: 60rem) {
