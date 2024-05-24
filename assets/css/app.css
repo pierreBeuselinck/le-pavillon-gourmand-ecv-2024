@@ -236,11 +236,6 @@ header nav ul {
     gap: 16px;
 }
 
-.c-section__content h2 {
-    font-family: "Change One", sans-serif;
-    font-size: 60px;
-}
-
 .c-section__content p {
     font-size: 26px;
 }
