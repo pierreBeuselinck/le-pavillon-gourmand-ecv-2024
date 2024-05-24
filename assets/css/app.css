@@ -360,6 +360,21 @@ header nav ul {
     .c-section__content {
         width: calc(100% - 32px);
     }
+
+    header {
+        flex-direction: column;
+        padding: 45px 16px 0 16px;
+    }
+
+    header nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .c-cover {
+        margin-top: -250px;
+        max-height: calc(100vh + 250px);
+    }
 }
 
 @media screen and (min-width: 60rem) {
