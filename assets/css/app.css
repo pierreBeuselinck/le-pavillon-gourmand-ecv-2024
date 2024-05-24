@@ -314,7 +314,7 @@ header nav ul {
 
 .c-cover__moment picture img {
     object-fit: cover;
-    height: auto;
+    height: 100%;
     width: 100%;
 }
 
