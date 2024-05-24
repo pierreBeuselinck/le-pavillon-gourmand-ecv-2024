@@ -127,6 +127,7 @@ a {
 
 /* Composants */
 
+
 footer {
     background-color: black;
     min-height: 335px;
@@ -138,10 +139,51 @@ footer {
 }
 
 header {
-    min-height: 130px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 60px 0 60px;
 }
 
-.c-cover {}
+header nav ul {
+    display: flex;
+    gap: 24px;
+}
+
+.c-cover {
+    position: relative;
+    margin-top: -175px;
+    /* height: 100vh; */
+}
+
+.c-cover::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.c-cover__title {
+    position: absolute;
+}
+
+.c-cover__carrousel picture {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.c-cover__carrousel picture img {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+}
 
 .c-section {
     display: flex;
