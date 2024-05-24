@@ -110,6 +110,10 @@
     background-color: #1E1E1E;
 }
 
+.u-bgcolor-brown {
+    background-color:  #251815;
+} 
+
 /* General */
 
 body {
@@ -299,6 +303,46 @@ header nav ul {
 }
 .services table td {
     padding-right: 3rem;
+}
+
+.c-cover__moment {
+    width: 100%;
+    height: 100%;
+}
+
+.c-cover__moment picture img {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+}
+
+
+.c-gallerie-section {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.c-gallerie-section_content {
+    padding: 16px;
+}
+
+.c-gallerie {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.c-gallerie picture {
+    width: 100%;
+    height: 100%;
+}
+
+.c-gallerie img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Mobile first */
